@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/images/0.png">
+    <title>Solar System</title>
+</head>
+<body>
+    <h1 class="h1_orbits">Solar system</h1>
+    <h1 class="latin_name2 h1_orbits2">Solaris</h1>
+    <section id="orbits">
+        <img src="/images/0.png" title="Sun" class="sun planet" data-id="0">
+        <img src="/images/1.png" title="Mercury" class="mercury planet grow" data-id="1">
+        <img src="/images/2.png" title="Venus" class="venus planet grow" data-id="2">
+        <img src="/images/3.png" title="Earth" class="earth planet grow" data-id="3">
+        <img src="/images/4.png" title="Mars" class="mars planet grow" data-id="4">
+        <img src="/images/5.png" title="Jupiter" class="jupiter planet grow" data-id="5">
+        <img src="/images/6.png" title="Saturn" class="saturn planet grow" data-id="6">
+        <img src="/images/7.png" title="Uranus" class="uranus planet grow" data-id="7">
+        <img src="/images/8.png" title="Neptune" class="neptune planet grow" data-id="8">
+    </section>
+    <article id="description" class="hide animation">
+
+        <button class="close_button planet">BACK TO SOLAR SYSTEM</button>
+        <img src="" alt="" class="article__image">
+
+        <section class="wrapper">
+
+        <h1 id="name"></h1>
+        <h3 id="latin_name"></h3>
+        <p id="desc"></p>
+        <hr>
+        <section class="menu">
+            <aside>
+                <h3>OMKRETS</h3>
+                <p id="distance"></p>
+            </aside>
+            <aside>
+                <h3 >KM FRÅN SOLEN</h3>
+                <p id="sun_distance"></p>
+            </aside>
+            <aside>
+                <h3 >MAX TEMPERATUR</h3>
+                <p id="max"></p>
+            </aside>
+            <aside>
+                <h3 >MIN TEMPERATUR</h3>
+                <p id="min"></p>
+            </aside>
+            <aside>
+                <h3>TYPE</h3>
+                <p id="type"></p>
+            </aside>
+            <aside>
+                <h3 >ORBIT PERIOD</h3>
+                <p id="orbit_period"></p>
+            </aside>
+        </section>
+        <hr>
+        <h3>MÅNAR</h3>
+        <p id="moon"></p>
+    </section>
+    </article>
+    <script type="module" src="/js/index.js"></script>    
+</body>
+</html>
+<!--
+<button title="Mercury" class="mercury planet grow"></button>
+        <button title="Venus" class="venus planet grow"></button>
+        <button title="Earth" class="earth planet grow"></button>
+        <button title="Mars" class="mars planet grow"></button>
+        <button title="Jupiter" class="jupiter planet grow"></button>
+        <button title="Saturn" class="saturn planet grow">
+            <figure class="saturn__orbit"></figure>
+        </button>
+        <button title="Uranus" class="uranus planet grow"></button>
+        <button title="Neptune" class="neptune planet grow"></button>
+        -->
