@@ -30,18 +30,33 @@ body {
     border-radius: 999px;
     position: fixed;
     right: 90%;
-    top: 10%;    
+    top: 5%;    
     -webkit-animation: fadeinout 5s linear forwards infinite;
     animation: fadeinout 5s linear forwards infinite;
-    opacity: 50%;
+    opacity: 50%;   
+    
 }
+
+
 @-webkit-keyframes fadeinout {
     50% { opacity: 1; }
   }
   
-  @keyframes fadeinout {
+@keyframes fadeinout {
     50% { opacity: 1; }
-  }
+}
+/* .rotate {
+    animation: rotation 90s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
 
 .planet{
     border-radius: 999px;
@@ -116,14 +131,14 @@ article{
 }
 
 .article__image{
-    width: 22%;
+    width: 20%;
     height: auto;
     position: fixed;
     right: 72%;
 }
 
 .wrapper{
-    width: 800px;
+    width: 700px;
     height: 600px;
 }
 .menu{
@@ -136,7 +151,7 @@ p{
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 170%;
     
 }
@@ -174,6 +189,7 @@ h1{
 }
 
 .close_button{
+    position: relative;
     font-family: 'Secular One';
     width: 200px;
     height: 70px;
@@ -182,7 +198,7 @@ h1{
     font-weight: 900;
     position: fixed;
     left: 60%;
-    top: 26%;
+    top: 18%;
     cursor: pointer;
     color: #ffd029;
     background: none;
@@ -196,7 +212,7 @@ h1{
 .h1_orbits2{
     position: fixed;
     right: 20%;
-    top: 25%;
+    top: 27%;
 }
 
 .grow { 
@@ -204,7 +220,7 @@ h1{
     }
     
 .grow:hover { 
-    transform: scale(2.4); 
+    transform: scale(2.0); 
     }
 
 
