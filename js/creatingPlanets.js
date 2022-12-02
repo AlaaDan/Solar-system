@@ -1,4 +1,7 @@
 import {getPlanets, getKey} from './api.js'
+// 
+// Whenever the user clicks on a certain planet they will get the planet information pushed from this moudle to the HTML 
+// This moudle is to push the information of the planets to the index,js 
 
 function numberWithSpaces(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -22,5 +25,3 @@ async function renderPlanets(id){
 
 
 export{renderPlanets}
-// Whenever the use clicks on a certain planet they will get the planet information
-// This moudle is to push the information of the planets to the index,js 
