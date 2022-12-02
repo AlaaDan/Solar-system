@@ -4,6 +4,7 @@ import {getPlanets, getKey} from './api.js'
 // This moudle is to push the information of the planets to the index,js 
 
 function numberWithSpaces(number) {
+    // This function addes a comma to the numbers and converts them into str 
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
