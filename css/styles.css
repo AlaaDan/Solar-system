@@ -50,51 +50,33 @@ body {
 .venus{
     width: 70px;
     right: 83%;
-    /* top: 48%; */
 }
 
 .earth{
     width: 50px;
     right: 77%;
-    /* top: 49%; */
 }
 
 .mars{
     width: 40px;
     right: 72%;
-    /* top: 49.5%; */
 }
 .jupiter{
     width: 200px;
     right: 58%;
-    /* top: 43%; */
 }
 .saturn{
     width: 250px;
-    /* top: 47%; */
     right: 42%;
 }
-/*
-.saturn__orbit{
-    width: 200px;
-    height: 7px;
-    background: rgb(156,153,153);
-    background: radial-gradient(circle, rgba(156,153,153,1) 0%, rgba(200,209,219,1) 100%);
-    transform: rotate(-30deg);
-    border-radius: 90%;
-    position: relative;
-    right: 70px;
-}
-*/
+
 .uranus{
     width: 100px;
     right: 32%;
-    /* top: 49%; */
 }
 .neptune{
     width: 100px;
     right: 24%;
-    /* top: 48.7%; */
 }
 article{
     width: 100vw;
